@@ -10,3 +10,7 @@ git version 파일의 변경된 코드를 탐색할 수 있게 도와줌.
 - commit  
 commit은 기본적으로 파일의 버전 저장 시점(pointing time).  
 즉 commit이 50개 있으면 파일의 버전이 50개 있다는 말.
+
+- README 파일  
+모든 저장소가 가지고 있어야되는 파일 
+markdown 확장자로 만들어야됨. markdown은 서식이 있는 파일임.
