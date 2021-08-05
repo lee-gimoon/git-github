@@ -22,7 +22,7 @@ markdown 확장자로 만들어야됨. markdown은 서식이 있는 파일임.
 commit하는 법: summary 칸에 commit 제목을 쓰고 commit to main을 누르면 됨.  
 push하는 법: publish branch 누르면 됨.
 
-- ginore
+- gitignore 쓰임세  
 윈도우나 맥os는 파일에 보이지않는 임시파일이 있는데 git은 디렉토리의 모든 파일을 참조할 수 있어서 보이지않는 임시파일이 깃허브에 업로드됨.  
 따라서 이 보이지않는 임시파일을 업로드 하지 않게 하기위해 .gitignore파일을 만들어서 임시파일을 넣으면됨.  
 .gitignore 파일: 무시하고 싶은 파일 이름을 기록하는 파일.
