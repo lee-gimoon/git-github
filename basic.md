@@ -28,6 +28,6 @@ push하는 법: publish branch 누르면 됨.
 .gitignore 파일: 무시하고 싶은 파일 이름을 기록하는 파일.
 
 - github에서 브랜치를 가지면 좋은 이점.  
-만약 특별한 이름이 붙혀진 특별한 branch를 가지고 있으면 깃허브에서 공짜로 static웹사이트를 호스팅 할 수 있도록 해준다.  
+만약 특별한 이름이 붙혀진 특별한 branch를 가지고 있으면 깃허브에서 공짜로 static웹사이트를 호스팅 할 수 있도록 해준다. => branch 이름은 gh-pages로 해야됨.  
 즉, 누구나 무료로 웹사이트를 업로드 할 수 있고 업로드하면 무료의 URL을 받을 수 있음.  
 static웹사이트: html,css,javascript로만 이루어진 웹사이트
