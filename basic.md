@@ -13,7 +13,7 @@ git version 파일의 변경된 코드를 탐색할 수 있게 도와줌.
 git command, history등의 저장되 있음. 이 파일(폴더)가 없으면 git은 더이상 우리의 파일을 추적하지 않음.
 
 - git area  
-git은 3개의 area를 가지고 있음. working-area, staging-area, repository-area
+git은 3개의 area를 가지고 있음. working-area, staging-area, repository-area  
 우리의 파일은 3가지중 1개의 area상태.  
 
 
