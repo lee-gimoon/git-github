@@ -16,10 +16,13 @@ git command, history등의 저장되 있음. 이 파일(폴더)가 없으면 git
 git은 3개의 area를 가지고 있음. working-area, staging-area, repository-area  
 우리의 파일은 3가지중 1개의 area상태.  
 
-
 - commit  
 commit은 기본적으로 파일의 버전 저장 시점(pointing time).  
 즉 commit이 50개 있으면 파일의 버전이 50개 있다는 말.
+
+- branch  
+main의 마지막 commit에서부터의 다른 타임라인. 즉, 독자적인 개발 라인 구축.  
+Ex) 현재 지점에서 2가지 길을 만들어 각 길의 버젼을 커밋해서 마지막에 합침.  
 
 - push  
 깃허브 저장소에 내 코드를 저장한다는 말.  
@@ -30,7 +33,9 @@ markdown 확장자로 만들어야됨. markdown은 서식이 있는 파일임.
 
 - github desktop 앱을 이용하기  
 commit하는 법: summary 칸에 commit 제목을 쓰고 commit to main을 누르면 됨.  
-push하는 법: publish branch 누르면 됨.
+push하는 법: publish branch 누르면 됨.  
+update from default branch: 기본 브랜치(main-branch)의 버전의 변경사항을 해당 브랜치에 적용시킴.  
+merge into current branch: 현재 브랜치에 다른 브랜치 버젼을 합침.
 
 - gitignore 쓰임세  
 윈도우나 맥os는 파일에 보이지않는 임시파일이 있는데 git은 디렉토리의 모든 파일을 참조할 수 있어서 보이지않는 임시파일이 깃허브에 업로드됨.  
