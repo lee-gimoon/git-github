@@ -3,7 +3,7 @@
 보통은 text파일에서 사용하지만 img, song, excel 등 모든 파일에서 쓸 수 있음. => git은 파일을 binary format으로 인식해서.   
   
 - github  
-파일 내역과 파일들을 올려주는 공간.  
+깃 파일 내역과 깃 파일들을 올려주는 공간.  
 git version 파일의 변경된 코드를 탐색할 수 있게 도와줌.
 
 
