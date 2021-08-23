@@ -6,6 +6,11 @@
 깃 파일 내역과 깃 파일들을 올려주는 공간.  
 git version 파일의 변경된 코드를 탐색할 수 있게 도와줌.
 
+- repository  
+깃이 보고 있는 파일의 폴더(파일). 즉, 이 폴더에 있는 모든 파일을 깃이 읽을 수 있다.
+
+- .git 폴더  
+git command, history등의 저장되 있음. 이 파일(폴더)가 없으면 git은 더이상 우리의 파일을 추적하지 않음.
 
 - commit  
 commit은 기본적으로 파일의 버전 저장 시점(pointing time).  
