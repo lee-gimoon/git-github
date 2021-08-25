@@ -31,6 +31,13 @@ Ex) 현재 지점에서 2가지 길을 만들어 각 길의 버젼을 커밋해�
 모든 저장소가 가지고 있어야되는 파일 
 markdown 확장자로 만들어야됨. markdown은 서식이 있는 파일임.
 
+- fork  
+repository의 전체를 내 깃헙계정으로 복사한다는 말.
+
+- clone  
+깃허브에 있는 repository를 내 컴퓨터에 복사한다는 말.  
+깃허브 데스크탑app 에서 add를 눌러서 원하는 저장소를 복사해오면 됨.
+
 - github desktop 앱을 이용하기  
 commit하는 법: summary 칸에 commit 제목을 쓰고 commit to main을 누르면 됨.  
 push하는 법: publish branch 누르면 됨.  
