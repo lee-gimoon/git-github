@@ -34,6 +34,11 @@ markdown 확장자로 만들어야됨. markdown은 서식이 있는 파일임.
 - fork  
 repository의 전체를 내 깃헙계정으로 복사한다는 말.
 
+- fork 하고난 이후 저장소 주인이 코드를 바꿧을때 변경사항을 내가 fork한 것에 추가하는 방법.  
+fork하면 자동으로 만들어지는 upstream 브랜치를 이용. => 즉, fork시 upstream 에서 코드를 fork함.  
+upstream branch: 베이스 저장소(원본)의 마스터 브랜치와 연결시켜줌. => 즉, upstream 은 베이스 저장소(원본)  
+결론, upstream 브랜치와 현재 fork한 나의 main 브랜치를 merge하면 최신코드가 업데이트 됨.
+
 - clone  
 깃허브에 있는 repository를 내 컴퓨터에 복사한다는 말.  
 깃허브 데스크탑app 에서 add를 눌러서 원하는 저장소를 복사해오면 됨.
