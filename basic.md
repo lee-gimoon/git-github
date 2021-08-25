@@ -27,6 +27,10 @@ Ex) 현재 지점에서 2가지 길을 만들어 각 길의 버젼을 커밋해�
 - push  
 깃허브 저장소에 내 코드를 저장한다는 말.  
 
+- pull  
+저장소의 최신 커밋 내역을 가져온 후 merge함.  
+즉, fetch + merge
+
 - README 파일  
 모든 저장소가 가지고 있어야되는 파일 
 markdown 확장자로 만들어야됨. markdown은 서식이 있는 파일임.
@@ -34,10 +38,13 @@ markdown 확장자로 만들어야됨. markdown은 서식이 있는 파일임.
 - fork  
 repository의 전체를 내 깃헙계정으로 복사한다는 말.
 
+- fetch  
+저장소의 최신 커밋 내역을 가져옴.
+
 - fork 하고난 이후 저장소 주인이 코드를 바꿧을때 변경사항을 내가 fork한 것에 추가하는 방법.  
 fork하면 자동으로 만들어지는 upstream 브랜치를 이용. => 즉, fork시 upstream 에서 코드를 fork함.  
 upstream branch: 베이스 저장소(원본)의 마스터 브랜치와 연결시켜줌. => 즉, upstream 은 베이스 저장소(원본)  
-결론, upstream 브랜치와 현재 fork한 나의 main 브랜치를 merge하면 최신코드가 업데이트 됨.
+결론, upstream 브랜치를 fetch하여 업데이트한 후 현재 fork한 나의 main 브랜치를 merge하면 내 fork에 최신코드가 업데이트 됨.
 
 - clone  
 깃허브에 있는 repository를 내 컴퓨터에 복사한다는 말.  
