@@ -38,6 +38,10 @@ repository의 전체를 내 깃헙계정으로 복사한다는 말.
 깃허브에 있는 repository를 내 컴퓨터에 복사한다는 말.  
 깃허브 데스크탑app 에서 add를 눌러서 원하는 저장소를 복사해오면 됨.
 
+- pull requests  
+다른 사람이 만든 저장소에 있는 파일의 코드를 내가 변경함. 이 변경한 파일을 가져가라고 요청하는 뜻.  
+저장소 주인이 받아들이면 코드가 수정됨. 즉, 협업을 할때 이 방식을 이용.
+
 - github desktop 앱을 이용하기  
 commit하는 법: summary 칸에 commit 제목을 쓰고 commit to main을 누르면 됨.  
 push하는 법: publish branch 누르면 됨.  
