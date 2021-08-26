@@ -54,8 +54,17 @@ git commit --amend --no-edit: 메세지는 수정x
 - git rm -r 파일이름/ --cached  
 -r은 폴더 제거 할때만 추가.
 
+- git remote -v  
+원격 저장소 목록 보여주는 명령어.
 
+- git remote add 원격저장소이름 url  
+origin 말고 다른 원격저장소 추가하는 방법.
 
+- git remote rm 원격저장소이름  
+원격저장소 제거 방법.
+
+- git clone url 저장할 폴더 이름  
+fork한 후 내컴퓨터에 클론하는 방법.
 
 
 
