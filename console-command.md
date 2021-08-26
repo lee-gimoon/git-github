@@ -21,10 +21,16 @@ origin: 원격저장소(github-repository), main: push하고 싶은 branch
 - git checkout master  
 다시 현재상태로 돌아오게 하는 코드.
 
-- git reset --hard HEAD^  
-이전 커밋으로 돌아가게 하는 코드. 단, 돌아가는 커밋보다 미래 커밋을 삭제하고 돌아감.  
+- git reset HEAD^ (복합리셋)  
+커밋만 삭제하고 파일 변경 사항은 그대로 둔다.  
+변경 사항들을 unstage 영역에 둔다.  
+
+- git reset --hard HEAD^ (하드리셋)
+이전 커밋으로 돌아가게 하는 코드. 단, 돌아가는 커밋보다 미래 커밋, 파일변경 내역을 삭제하고 돌아감.  
 --hard: 삭제한다는 뜻.  
 HEAD^: 현재 HEAD위치에 한 커밋전으로 돌아감. ^^쓰면 두 커밋전으로 돌아감.
+
+- git reset --
 
 - git push origin main --force  
 강제로 푸시.
