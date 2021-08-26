@@ -2,6 +2,9 @@
 커밋한 history를 볼 수 있음.  
 histoty창 끄는법 => q 입력
 
+- git status  
+파일상태 내역. (? area)
+
 - git add .  
 현재 폴더의 모든 파일을 stage-area에 올려놓기.
 
@@ -41,12 +44,15 @@ HEAD^: 현재 HEAD위치에 한 커밋전으로 돌아감. ^^쓰면 두 커밋�
 - git branch  
 브랜치 목록 보는 명령어.
 
+- git branch -d 브랜치이름  
+브랜치 삭제하는 명령어.
 
+- git commit --amend -m "message"  
+마지막 커밋을 새로운 메세지와 함께 수정.  
+git commit --amend --no-edit: 메세지는 수정x
 
-
-
-
-
+- git rm -r 파일이름/ --cached  
+-r은 폴더 제거 할때만 추가.
 
 
 
