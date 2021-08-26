@@ -15,11 +15,11 @@ origin: 원격저장소(github-repository), main: push하고 싶은 branch
 - 용어 HEAD  
 마지막 커밋을 가리키는 포인터. => 즉, 현재 브랜치의 마지막 커밋을 가리킴.
 
-- git checkout 과거 커밋  
-과거의 커밋으로 돌아가게 하는 코드.  
+- git checkout 커밋별명  
+해당 커밋으로 돌아가게 하는 코드.  
 
-- git checkout master  
-다시 현재상태로 돌아오게 하는 코드.
+- git checkout main  
+다시 현재상태(main branch)로 돌아오게 하는 코드.
 
 - git reset HEAD^ (복합리셋)  
 커밋만 삭제하고 파일 변경 사항은 그대로 둔다.  
@@ -30,13 +30,16 @@ origin: 원격저장소(github-repository), main: push하고 싶은 branch
 --hard: 삭제한다는 뜻.  
 HEAD^: 현재 HEAD위치에 한 커밋전으로 돌아감. ^^쓰면 두 커밋전으로 돌아감.
 
-- git reset --
+- git reset --softl HEAD^ (소프트리셋)
 
 - git push origin main --force  
 강제로 푸시.
 
+- git git checkout -b 브랜치명  
+새로운 브랜치 만드는 명령어.
 
-
+- git branch  
+브랜치 목록 보는 명령어.
 
 
 
