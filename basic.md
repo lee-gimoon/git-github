@@ -1,3 +1,6 @@
+
+- git clone 시 아이디 비번 및 접근 제한걸리는 이유는 repository를 private으로 설정해놔서 그럼 public으로 바꾸면됨
+
 - git  
 파일의 변경내역을 게속해서 추적하여 변경내역 관리하는 version control system.    
 보통은 text파일에서 사용하지만 img, song, excel 등 모든 파일에서 쓸 수 있음. => git은 파일을 binary format으로 인식해서.   
